@@ -45,7 +45,5 @@ saveHighScore = e => {
 
     saveScoreBtn.disabled = username.value
 
-    //window.location.assign("file:///Users/alecwilliams/code/my-own-project/MOP-code/Index.html")
-
-    //console.log(highScores)
+    
 }
