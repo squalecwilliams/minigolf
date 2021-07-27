@@ -215,7 +215,7 @@ function run(){
                     Engine.clear(engine)
                     if(holeNum > MAX_HOLES){
                         localStorage.setItem('mostRecentScore', strokeCount)
-                        return window.location.assign("file:///Users/alecwilliams/code/my-own-project/MOP-code/end.html")
+                        return window.location.assign("file:///Users/alecwilliams/minigolf/end.html")
                     }
                     run()
                 }, 1000)
@@ -237,7 +237,7 @@ function run(){
                     Engine.clear(engine)
                     if(holeNum > MAX_HOLES){
                         localStorage.setItem('mostRecentScore', strokeCount)
-                        return window.location.assign("file:///Users/alecwilliams/code/my-own-project/MOP-code/end.html")
+                        return window.location.assign("file:///Users/alecwilliams/minigolf/end.html")
                     }
                     run()
                 }, 1000)
